@@ -1,6 +1,5 @@
 body{
     background-color: rgb(6, 6, 7);
-    height: 2000p 
 }
 svg{
     cursor: pointer !important;
@@ -10,26 +9,24 @@ svg{
     height: 50px;
 }
 .navbar ul{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     padding-left: 20px;
     padding-right: 20px;
     height: 50px;
     margin: auto;
-    text-align: center;
 }
 .navbar ul li{
-    display: inline-block;
-    padding: 20px;
+    margin-top: 15px;
 }
 .navbar ul li a{
     width: 50%;
     text-align: center;
     text-decoration: none;
     color: #fff;
-    font-size: 19px;
-    margin-left: 20px;
     padding-top: 7px;
-    padding-left: 7px;
     padding-bottom: 10px;
     font-weight: 900;
     transition: all 1s;
@@ -251,68 +248,34 @@ img{
     min-height:260px
 }
 @media screen and (max-width:568px){
-.navbar ul li a{
-    font-size: 30px;
-}    
+.cars{
+    width: 75%;
+}
 .Great{
     width: 100%;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 .rolls{
     width: 100%;
     background-color: #fff;
 }
-.cars{
-    width: 75%;
-}
-.car-content {
-    margin:auto;
-}    
-.Changan h5 ,h4{
-    font-size:40px
-}
-.search-cars{
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:25px;
-    padding-bottom:25px;
-    border-radius:3px
-}
-.line{
-    width:275px;
-    height:6px
-}
-h6 ,.search-cars{
-    font-size:35px
-}
-del ,p{
-    font-size:30px
-}
-.shop-btn{
-    font-size:37px;
-    width:325px;
-    padding: 25px;
-}
-.shopping-car ,.heart{
-    margin-right:75px !important;
-    font-size:40px
-}
-.heart{
-    margin-right:30px !important;
-
-}
-.View-btn{
-    width:400px;
-    font-size:30px;
+.navbar ul{
+    width: 90%;
 }
 }
 @media screen and (min-width:569px) and (max-width:969px){
 .cars{
     width: 47%;
 }
+.navbar ul{
+    width: 80%;
 }
-@media screen and (min-width:970px){
+}
+@media screen and (min-width:992px){
 .cars{
     width: 29%;
+}
+.navbar ul{
+    width: 40%;
 }
 }
