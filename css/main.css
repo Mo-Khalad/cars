@@ -1,0 +1,318 @@
+body{
+    background-color: rgb(6, 6, 7);
+    height: 2000p 
+}
+svg{
+    cursor: pointer !important;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar ul li a{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 20px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    transition: all 1s;
+    border-bottom:1px solid rgb(0, 0, 0) ;    
+}
+.navbar ul li a:hover{
+    border-bottom:1px solid rgb(4, 8, 255) ;    
+}
+.home .search-cars{
+    box-shadow: 0 0 0.658rem rgb(3, 73, 139);
+    border-radius: 20px;
+    width: 95%;
+    height: 520px;
+    margin: auto;
+    margin-top: 45px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue{
+    width: 150px;
+    height: 290px;
+    background-color: blue;
+    position: absolute;
+    top: -100px;
+    left: -75px;
+    transform: rotate(45deg);   
+}
+.Great-quality{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content: center;
+}
+.Great{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+span{
+    width: 500px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 0.658rem rgb(3, 73, 139);
+    font-weight: 900;
+    padding-left: 2px;
+    text-align: center;
+    display: inline;
+    padding-top: 500px !important;
+}
+p{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 25px;
+    width: 77%;
+    text-align: center;
+    margin-bottom:50px;
+    color:rgb(216, 204, 204);
+}
+.input-search-cars{
+    background-color: black;
+    text-decoration: none;
+    border: 2px solid  rgb(3, 73, 139);
+    width: 60%;
+    border-radius: 3px;
+    padding:5px;
+    height: 40px;
+    transition: all 1s;
+}
+.input-search-cars:hover{
+    border: 2px solid  rgb(238, 238, 238);
+}
+.rolls{
+    width: 50%;
+    background-color: #fff;
+}
+.rolls img{
+    width: 100%;
+    height: 100%;
+}
+h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+.Line{
+    width: 200px;
+    height:4px;
+    background-color:rgb(9, 21, 184);
+    margin: auto;
+}
+.text{
+    width: 100%;
+}
+.paragraph{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cars{
+    width: 24%;
+    min-height: 350px !important;
+    border: 1px solid  rgb(3, 73, 139);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top:35px;
+    margin-top:50px !important;
+    margin: auto;
+}
+.car-content{
+  display: flex;
+  justify-content: space-between !important;
+  padding-left: 5px;
+}
+.Changan{
+    background-color:rgb(2, 17, 31);
+    padding: 3px;
+} 
+.Changan h5{
+   color:rgb(3, 73, 139);
+   font-weight: 800;
+   font-size:16px;
+}
+h5 ,h6 ,del{
+    padding: 4px;
+    margin: 4px;
+    font-size: 16px;
+}
+.Changan h6{
+    color: #fff;
+}
+del{
+    margin-top: 3px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 33px;
+    display: block;
+    font-size: 11px;
+}
+.buy-now{
+    width: 100%;
+    text-align: center;
+}
+.shop-btn{
+    padding: 9px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 10px;
+    border: 0;
+    color:rgb(3, 73, 139);
+    font-weight: 700;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+.shop-btn:hover{
+    color: #fff;
+    background-color: rgb(3, 73, 139);
+}
+.images-cars{
+    width: 105%;
+    margin-left: -12;
+}
+.images-cars img{
+    transition: all 1s;
+    height: 275px !important;
+    cursor: pointer;
+}
+.images-cars img:hover{
+    transform: scale(1.1,1.1);
+}
+.heart ,.shopping-car{
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: royalblue;
+    transition: all 1s;    
+}
+.shopping-car{
+    margin-right: 15px;
+}
+.heart:hover{
+    color: red;
+}
+.shopping-car:hover{
+    color: rgb(0, 255, 255);
+}
+.view-all{
+    width: 100%;
+    text-align: center;
+}
+.View-btn{
+    width:200px;
+    text-align: center;
+    margin-top: 50px;
+    padding:15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    background-color: rgb(3, 73, 139);
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    margin-bottom: 50px;
+    transition: all 1s;
+}
+.view-btn:hover{
+    background-color:#fff;
+    color:  rgb(3, 73, 139);
+}
+img{
+    min-height:260px
+}
+@media screen and (max-width:568px){
+.navbar ul li a{
+    font-size: 30px;
+}    
+.Great{
+    width: 100%;
+    margin-top: 250px;
+}
+.rolls{
+    width: 100%;
+    background-color: #fff;
+}
+.cars{
+    width: 75%;
+}
+.car-content {
+    margin:auto;
+}    
+.Changan h5 ,h4{
+    font-size:40px
+}
+.search-cars{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:25px;
+    padding-bottom:25px;
+    border-radius:3px
+}
+.line{
+    width:275px;
+    height:6px
+}
+h6 ,.search-cars{
+    font-size:35px
+}
+del ,p{
+    font-size:30px
+}
+.shop-btn{
+    font-size:37px;
+    width:325px;
+    padding: 25px;
+}
+.shopping-car ,.heart{
+    margin-right:75px !important;
+    font-size:40px
+}
+.heart{
+    margin-right:30px !important;
+
+}
+.View-btn{
+    width:400px;
+    font-size:30px;
+}
+}
+@media screen and (min-width:569px) and (max-width:969px){
+.cars{
+    width: 47%;
+}
+}
+@media screen and (min-width:970px){
+.cars{
+    width: 29%;
+}
+}
