@@ -248,19 +248,26 @@ img{
     min-height:260px
 }
 @media screen and (max-width:568px){
+.home .search-cars{
+    height: 785px;
+}
 .cars{
     width: 75%;
 }
 .Great{
     width: 100%;
-    margin-top: 300px;
+    margin-top: 460px;
+    margin-bottom: 3px;
 }
 .rolls{
-    width: 100%;
+    width:100%;
     background-color: #fff;
 }
 .navbar ul{
     width: 90%;
+}
+.input-search-cars{
+    width: 80%;
 }
 }
 @media screen and (min-width:569px) and (max-width:969px){
